@@ -36,7 +36,7 @@ a{
 }
 
 
-main{
+main {
   width: 960px;
   margin: auto;
 }
@@ -77,6 +77,7 @@ footer {
 
   button{
     transition: 350ms;
+    padding: 14px 40px;
   }
 
 
