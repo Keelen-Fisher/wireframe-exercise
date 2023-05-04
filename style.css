@@ -16,6 +16,8 @@ margin:auto;
 /* align-items: center; */
 }
 
+/* This CSS code is selecting all `img` elements that are inside a `nav` element and applying two
+styles to them. */
 nav img{
   float: left;
   margin-top: 15px;
@@ -41,6 +43,14 @@ main {
   margin: auto;
 }
 
+/* This CSS code is selecting the `ul` element that is inside the `main` element and applying four
+styles to it:
+- `display: flex;` sets the display property to flex, which allows the child elements of the `ul` to
+be arranged in a flexible row or column.
+- `justify-content: space-between;` aligns the child elements of the `ul` with equal space between
+them, pushing the first and last elements to the edges of the container.
+- `margin-top: 30px;` adds a margin of 30 pixels to the top of the `ul`.
+- `margin-bottom: 30px;` adds a margin of 30 pixels to the bottom of the `ul`. */
 main ul {
   display: flex;
   justify-content: space-between;
